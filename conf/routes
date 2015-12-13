@@ -6,7 +6,7 @@
 GET        /                      controllers.Application.index
 
 GET        /tasks                         controllers.Application.tasks
-POST       /task                          controllers.Application.addTask
+POST       /task                          controllers.Application.newTask
 POST       /task/:id/delete               controllers.Application.deleteTask(id: Long)
 
 
